@@ -22,7 +22,7 @@ config = {
     'droplr_domain: if you have a custom droplr domain, enter it here, otherwise leave it as d.pr ',
     'digest_timeline: if true will create a single entry for all tweets',
     'oauth_token and oauth_secret should be left blank and will be filled in by the plugin'],
-  'twitter_users' => [],
+  'twitter_users' => [ 'jasonmklug', 'klugwerk', 'imagedistillery', 'werkphone' ],
   'save_favorites' => true,
   'save_images' => true,
   'save_images_from_favorites' => true,
@@ -30,8 +30,8 @@ config = {
   'twitter_tags' => '#social #twitter',
   'oauth_token' => '',
   'oauth_token_secret' => '',
-  'exclude_replies' => true,
-  'save_retweets' => false,
+  'exclude_replies' => false,
+  'save_retweets' => true,
   #'digest_favorites' => true, # Not implemented yet
   'digest_timeline' => true
 }
